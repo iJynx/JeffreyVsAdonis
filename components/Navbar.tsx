@@ -11,8 +11,8 @@ export default function Navbar(props: any) {
     <div className=" flex flex-row justify-between text-3xl p-4 bg-primary">
       <div className="font-bold">
         <Image src={adonisgold} className="inline-flex mr-4" alt="gigachad" width={50} height={50} />
-        <span className="text-green-500">Adonis</span> <span className="text-yellow-500">VS. </span>
-        <span className="text-red-500">Jeffrey</span>
+        <span className="text-red-500">Jeffrey</span><span className="text-yellow-500"> VS. </span>
+        <span className="text-green-500">Adoniss</span> 
       </div>
       <div className="flex gap-4 mr-8 ">
         <NavLink name="Home" href="/#" />
